@@ -38,47 +38,52 @@ n	lost	reserve	return
 
 using namespace std;
 
+enum STATUS // 체육복 여분 상태
+{
+    STATUS_MINUS = -1,
+    STATUS_NORMAL,
+    STATUS_PLUS
+};
 int solution( int n, vector<int> lost, vector<int> reserve )
 {
     int answer = 0;
-    vector<int> statuses(n);  // 전체 학생수만큼 상태 값 벡터 생성
+    vector<int> students( n );  // 전체 학생수만큼 상태 값 벡터 생성
     // -이면 부족, 0이면 부족하지 않음, 1이면 여분의 상태
     for (size_t i = 0; i < lost.size(); ++i)
     {
-        statuses[lost[i] - 1] += -1;    // 부족 상태 반영
+        students[lost[i] - 1] += STATUS_MINUS;    // 부족 상태 반영
     }
     for (size_t i = 0; i < reserve.size(); ++i)
     {
-        statuses[reserve[i] - 1] += 1;   // 여분 상태 반영
+        students[reserve[i] - 1] += STATUS_PLUS;   // 여분 상태 반영
     }
 
     size_t temp = 0;
-    for (size_t i = 0; i < statuses.size(); ++i)
+    for (size_t i = 0; i < students.size(); ++i)
     {
-        if (statuses[i] <= 0)
+        if (students[i] <= STATUS_NORMAL)
             continue;   // 여분 상태 아니면 다음 값으로
 
         temp = (i - 1) == -1 ? 0 : (i - 1);
-        if(statuses[temp] == -1)
-        //if (temp - 1 >= 0 && statuses[temp - 1] == -1)
-        {   // 앞 번호에 부족상태면 빌려주고
-            statuses[temp] += 1;
-            statuses[i] += -1;  // 여분 상태 감소
+        if(students[temp] == STATUS_MINUS)
+        {
+            students[temp] += STATUS_PLUS;  // 앞 번호에 부족상태면 빌려주고
+            students[i] += STATUS_MINUS;    // 여분 상태 감소
             continue;
         }
 
         temp = i + 1;
-        if (temp < statuses.size() && statuses[temp] == -1)
-        {   // 뒷 번호에 부족상태면 빌려주고
-            statuses[temp] += 1;
-            statuses[i] += -1;  // 여분 상태 감소
+        if (temp < students.size() && students[temp] == STATUS_MINUS)
+        {
+            students[temp] += STATUS_PLUS;  // 뒷 번호에 부족상태면 빌려주고
+            students[i] += STATUS_MINUS;    // 여분 상태 감소
             continue;
         }
     }
 
-    for (size_t i = 0; i < statuses.size(); ++i)
+    for (size_t i = 0; i < students.size(); ++i)
     {   // 수업 가능한 총 학생 수 카운팅
-        if (statuses[i] > -1)
+        if (students[i] >= STATUS_NORMAL)
             ++answer;
     }
 
