@@ -45,6 +45,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "정수 삼각형 todo", "�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "체육복", "체육복\체육복.vcxproj", "{8B0AAC78-14B5-4C89-A270-EFE0ECE41F37}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "문자열 내 p와 y의 개수", "문자열 내 p와 y의 개수\문자열 내 p와 y의 개수.vcxproj", "{315C8927-0137-4B65-9495-E44362CA879F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -197,6 +199,14 @@ Global
 		{8B0AAC78-14B5-4C89-A270-EFE0ECE41F37}.Release|x64.Build.0 = Release|x64
 		{8B0AAC78-14B5-4C89-A270-EFE0ECE41F37}.Release|x86.ActiveCfg = Release|Win32
 		{8B0AAC78-14B5-4C89-A270-EFE0ECE41F37}.Release|x86.Build.0 = Release|Win32
+		{315C8927-0137-4B65-9495-E44362CA879F}.Debug|x64.ActiveCfg = Debug|x64
+		{315C8927-0137-4B65-9495-E44362CA879F}.Debug|x64.Build.0 = Debug|x64
+		{315C8927-0137-4B65-9495-E44362CA879F}.Debug|x86.ActiveCfg = Debug|Win32
+		{315C8927-0137-4B65-9495-E44362CA879F}.Debug|x86.Build.0 = Debug|Win32
+		{315C8927-0137-4B65-9495-E44362CA879F}.Release|x64.ActiveCfg = Release|x64
+		{315C8927-0137-4B65-9495-E44362CA879F}.Release|x64.Build.0 = Release|x64
+		{315C8927-0137-4B65-9495-E44362CA879F}.Release|x86.ActiveCfg = Release|Win32
+		{315C8927-0137-4B65-9495-E44362CA879F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -220,6 +230,7 @@ Global
 		{219F1D23-DE0B-446F-9F02-BE7D92555C57} = {9CFF1DC4-5CC0-4718-93DA-59FF89491842}
 		{3407B77B-8671-49B0-A3D6-C6F673A381CC} = {06F866F0-DF56-4FFB-B83B-A509D7AE014A}
 		{8B0AAC78-14B5-4C89-A270-EFE0ECE41F37} = {9CFF1DC4-5CC0-4718-93DA-59FF89491842}
+		{315C8927-0137-4B65-9495-E44362CA879F} = {9CFF1DC4-5CC0-4718-93DA-59FF89491842}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CA74021E-CF00-4814-A39A-44A920BAA9CB}
