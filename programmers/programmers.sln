@@ -53,6 +53,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "같은 숫자는 싫어", "
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "나누어 떨어지는 숫자 배열", "나누어 떨어지는 숫자 배열\나누어 떨어지는 숫자 배열.vcxproj", "{FA84FDAA-A0CB-4A74-9374-E4D5E1F6FC03}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "문자열_내림차순으로_배치하기", "문자열_내림차순으로_배치하기\문자열_내림차순으로_배치하기.vcxproj", "{2DE84D9C-01D2-4309-9E46-ACD9A9A80549}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -237,6 +239,14 @@ Global
 		{FA84FDAA-A0CB-4A74-9374-E4D5E1F6FC03}.Release|x64.Build.0 = Release|x64
 		{FA84FDAA-A0CB-4A74-9374-E4D5E1F6FC03}.Release|x86.ActiveCfg = Release|Win32
 		{FA84FDAA-A0CB-4A74-9374-E4D5E1F6FC03}.Release|x86.Build.0 = Release|Win32
+		{2DE84D9C-01D2-4309-9E46-ACD9A9A80549}.Debug|x64.ActiveCfg = Debug|x64
+		{2DE84D9C-01D2-4309-9E46-ACD9A9A80549}.Debug|x64.Build.0 = Debug|x64
+		{2DE84D9C-01D2-4309-9E46-ACD9A9A80549}.Debug|x86.ActiveCfg = Debug|Win32
+		{2DE84D9C-01D2-4309-9E46-ACD9A9A80549}.Debug|x86.Build.0 = Debug|Win32
+		{2DE84D9C-01D2-4309-9E46-ACD9A9A80549}.Release|x64.ActiveCfg = Release|x64
+		{2DE84D9C-01D2-4309-9E46-ACD9A9A80549}.Release|x64.Build.0 = Release|x64
+		{2DE84D9C-01D2-4309-9E46-ACD9A9A80549}.Release|x86.ActiveCfg = Release|Win32
+		{2DE84D9C-01D2-4309-9E46-ACD9A9A80549}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -264,6 +274,7 @@ Global
 		{E25FBAB7-0013-4A59-A518-774951C20408} = {12C939AC-07A7-4297-BBB5-046D671E9E2A}
 		{F7BA9E31-01D9-49AE-BD1C-1F084724A9BC} = {9CFF1DC4-5CC0-4718-93DA-59FF89491842}
 		{FA84FDAA-A0CB-4A74-9374-E4D5E1F6FC03} = {9CFF1DC4-5CC0-4718-93DA-59FF89491842}
+		{2DE84D9C-01D2-4309-9E46-ACD9A9A80549} = {9CFF1DC4-5CC0-4718-93DA-59FF89491842}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CA74021E-CF00-4814-A39A-44A920BAA9CB}
