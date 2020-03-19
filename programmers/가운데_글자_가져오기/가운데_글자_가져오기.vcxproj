@@ -20,7 +20,7 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{39277EDF-3A09-449B-9B4D-53375E83F38A}</ProjectGuid>
+    <ProjectGuid>{24D9ECBC-49AC-421F-8470-7786E781B088}</ProjectGuid>
     <RootNamespace>가운데글자가져오기</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>

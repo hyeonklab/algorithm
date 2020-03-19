@@ -26,3 +26,10 @@ string solution( string s )
     //printf("%d", midlen);
     return answer;
 }
+
+int main()
+{
+    string ret;
+    ret = solution( "abcde" );  // c
+    ret = solution( "qwer" );   // we
+}
