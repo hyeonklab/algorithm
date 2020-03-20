@@ -45,10 +45,7 @@ heights	return
 
 출처  https://www.digitalculture.or.kr/koi/selectOlymPiadDissentList.do
 */
-#include <string>
 #include <vector>
-#include <stack>
-#include <queue>
 #include <algorithm>
 
 using namespace std;
