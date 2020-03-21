@@ -50,15 +50,15 @@ int solution( vector<vector<string>> clothes )
 {
     int answer = 1;
     unordered_map<string, int> hash;
-    for (int i = 0; i < clothes.size(); ++i)
+    for( auto name : clothes )
     {
-        ++hash[clothes[i][1]];  // 옷 종류 카운팅
+        ++hash[ name[ 1 ] ];    // 옷 종류 카운팅
     }
-    for (auto elem : hash)
+    for( auto elem : hash )
     {
-        answer *= elem.second + 1; // 종류 카운트를 곱해서 합산
+        answer *= elem.second + 1;  // 종류 카운트를 곱하기
     }
-    --answer;
+    --answer;   // 정리
 
     return answer;
 }
