@@ -22,9 +22,7 @@ progresses	speeds	return
 
 따라서 7일째에 2개의 기능, 9일째에 1개의 기능이 배포됩니다.
 */
-#include <string>
 #include <vector>
-#include <queue>
 
 using namespace std;
 
