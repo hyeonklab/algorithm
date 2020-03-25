@@ -34,14 +34,13 @@ vector<int> solution( vector<int> progresses, vector<int> speeds )
     for( size_t i = 0; i < progresses.size(); ++i )
     {
         days_of_expect = (99 - progresses[ i ]) / speeds[ i ] + 1;  // 나머지를 없애기 위해 99기준으로 나눈다음 항상 1을 더한다
-
         if( days_of_expect > max_days )
+        {
             answer.emplace_back( 1 );   // 새로운 최대 일수의 카운트 추가
+            max_days = days_of_expect;  // 새로운 최대 일수 저장
+        }
         else
             ++answer.back();    // 현재 최대일수 보다 작은 예상 일수는 카운트 누적
-
-        if( days_of_expect > max_days )
-            max_days = days_of_expect;  // 새로운 최대 일수 저장
     }
 
     return answer;
