@@ -39,9 +39,8 @@ vector<int> solution( vector<int> prices )
             if( j == prices.size() - 1 )
                 answer.emplace_back( seconds ); // 마지막까지 카운트 한 초 담기
         }
-        if( i == prices.size() - 1 )
-            answer.emplace_back( 0 );   // 마지막 값
     }
+    answer.emplace_back( 0 );   // 마지막 값
 
     return answer;
 }
