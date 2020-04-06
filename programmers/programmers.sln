@@ -65,6 +65,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "쇠막대기", "쇠막대�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "주식가격", "주식가격\주식가격.vcxproj", "{BD99E21D-3EEA-408D-BF4B-825A8EA08512}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "크레인_인형뽑기_게임", "크레인_인형뽑기_게임\크레인_인형뽑기_게임.vcxproj", "{D57166C9-52FD-46BF-99A9-AAD9241B7953}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -297,6 +299,14 @@ Global
 		{BD99E21D-3EEA-408D-BF4B-825A8EA08512}.Release|x64.Build.0 = Release|x64
 		{BD99E21D-3EEA-408D-BF4B-825A8EA08512}.Release|x86.ActiveCfg = Release|Win32
 		{BD99E21D-3EEA-408D-BF4B-825A8EA08512}.Release|x86.Build.0 = Release|Win32
+		{D57166C9-52FD-46BF-99A9-AAD9241B7953}.Debug|x64.ActiveCfg = Debug|x64
+		{D57166C9-52FD-46BF-99A9-AAD9241B7953}.Debug|x64.Build.0 = Debug|x64
+		{D57166C9-52FD-46BF-99A9-AAD9241B7953}.Debug|x86.ActiveCfg = Debug|Win32
+		{D57166C9-52FD-46BF-99A9-AAD9241B7953}.Debug|x86.Build.0 = Debug|Win32
+		{D57166C9-52FD-46BF-99A9-AAD9241B7953}.Release|x64.ActiveCfg = Release|x64
+		{D57166C9-52FD-46BF-99A9-AAD9241B7953}.Release|x64.Build.0 = Release|x64
+		{D57166C9-52FD-46BF-99A9-AAD9241B7953}.Release|x86.ActiveCfg = Release|Win32
+		{D57166C9-52FD-46BF-99A9-AAD9241B7953}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -330,6 +340,7 @@ Global
 		{068A8590-2793-4B10-BF83-115B66C6DE67} = {12C939AC-07A7-4297-BBB5-046D671E9E2A}
 		{E5396869-9E5C-455A-92E8-16FD091F3B5E} = {12C939AC-07A7-4297-BBB5-046D671E9E2A}
 		{BD99E21D-3EEA-408D-BF4B-825A8EA08512} = {12C939AC-07A7-4297-BBB5-046D671E9E2A}
+		{D57166C9-52FD-46BF-99A9-AAD9241B7953} = {9CFF1DC4-5CC0-4718-93DA-59FF89491842}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CA74021E-CF00-4814-A39A-44A920BAA9CB}
