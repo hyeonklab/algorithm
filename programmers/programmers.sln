@@ -77,6 +77,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "예산", "예산\예산.vcx
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "다리를_지나는_트럭", "다리를_지나는_트럭\다리를_지나는_트럭.vcxproj", "{9F0574E7-EB0C-47D5-BA0A-BBBC1F1DA9C6}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "정수_삼각형", "정수_삼각형\정수_삼각형.vcxproj", "{B84BBA2E-A2EE-4455-957C-FA3688AF11BE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -333,6 +335,14 @@ Global
 		{9F0574E7-EB0C-47D5-BA0A-BBBC1F1DA9C6}.Release|x64.Build.0 = Release|x64
 		{9F0574E7-EB0C-47D5-BA0A-BBBC1F1DA9C6}.Release|x86.ActiveCfg = Release|Win32
 		{9F0574E7-EB0C-47D5-BA0A-BBBC1F1DA9C6}.Release|x86.Build.0 = Release|Win32
+		{B84BBA2E-A2EE-4455-957C-FA3688AF11BE}.Debug|x64.ActiveCfg = Debug|x64
+		{B84BBA2E-A2EE-4455-957C-FA3688AF11BE}.Debug|x64.Build.0 = Debug|x64
+		{B84BBA2E-A2EE-4455-957C-FA3688AF11BE}.Debug|x86.ActiveCfg = Debug|Win32
+		{B84BBA2E-A2EE-4455-957C-FA3688AF11BE}.Debug|x86.Build.0 = Debug|Win32
+		{B84BBA2E-A2EE-4455-957C-FA3688AF11BE}.Release|x64.ActiveCfg = Release|x64
+		{B84BBA2E-A2EE-4455-957C-FA3688AF11BE}.Release|x64.Build.0 = Release|x64
+		{B84BBA2E-A2EE-4455-957C-FA3688AF11BE}.Release|x86.ActiveCfg = Release|Win32
+		{B84BBA2E-A2EE-4455-957C-FA3688AF11BE}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -371,6 +381,7 @@ Global
 		{CCBCEE95-DE80-4753-A78D-A58402C96853} = {AABD4125-5297-416C-9E64-C408AC461400}
 		{8C90232F-0734-4F0C-AAFB-435BDC8AA036} = {CCBCEE95-DE80-4753-A78D-A58402C96853}
 		{9F0574E7-EB0C-47D5-BA0A-BBBC1F1DA9C6} = {12C939AC-07A7-4297-BBB5-046D671E9E2A}
+		{B84BBA2E-A2EE-4455-957C-FA3688AF11BE} = {06F866F0-DF56-4FFB-B83B-A509D7AE014A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CA74021E-CF00-4814-A39A-44A920BAA9CB}
